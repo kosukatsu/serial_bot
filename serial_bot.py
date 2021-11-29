@@ -12,7 +12,7 @@ def load_yaml(file):
 
 def main(conf):
     # シリアル通信
-    readSer = serial.Serial(conf["serial_port"], 9600, timeout=3)
+    readSer = serial.Serial(conf["serial_port"], conf["bps"], timeout=3)
     try:
         while True:
             line = readSer.readline() 
