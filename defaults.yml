@@ -1,0 +1,2 @@
+web_hook_url: "<slack incoming webhooks URL>"
+serial_port: "<serial port>"
