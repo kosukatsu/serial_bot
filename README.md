@@ -6,3 +6,5 @@
 2. シリアル通信のポートを確認する．
 3. `defaults.yml`内の`web_hook_url`と`serial_port`を変更する．
 4. `python serial_bot.py defaults.yml`
+## 動作の様子
+[動作動画](https://drive.google.com/file/d/1q_DtNY9FKhb6tegeshvln8cOdJDHfONM/view?usp=sharing)
